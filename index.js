@@ -16,10 +16,10 @@
 		return encodeURIComponent(s).replace(/[()]/g, escapeChar);
 	}
 
-	exports.Sort = function(orders) {
+	exports.Sort = function Sort(orders) {
 		if(orders.constructor != Array)
-			orders = arguments;
-		return Array.prototype.join(orders, "");
+			orders = Array.prototype.slice.call(arguments);
+		return orders.join(",");
 	};
 
 	exports.Order = function(field, ascending) {

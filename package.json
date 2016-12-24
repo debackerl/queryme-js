@@ -1,7 +1,7 @@
 {
 	"name": "queryme",
 	"title": "Structured query strings",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"author": "Laurent Debacker <debackerl gmail com>",
 	"license": "MIT",
 	"repository": {
